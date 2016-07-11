@@ -176,6 +176,18 @@ public class PayPwdEditText extends RelativeLayout{
         }
     }
 
+	/**
+     * 清除文本框
+     */
+    public void clearText()
+    {
+        editText.setText("");
+        for(int i = 0; i < pwdlength; i++)
+        {
+            textViews[i].setText("");
+        }
+    }
+
     public void setOnTextFinishListener(OnTextFinishListener onTextFinishListener) {
         this.onTextFinishListener = onTextFinishListener;
     }
