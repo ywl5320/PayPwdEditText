@@ -1,5 +1,6 @@
 # PayPwdEditText
 ####支付密码框，和微信支付宝类似
+####博客地址：http://blog.csdn.net/ywl5320/article/details/52003691
 #####一、效果图：
 ![image](https://github.com/wanliyang1990/PayPwdEditText/blob/master/imgs/paypwd.gif)<br/>
 #####二、设置代码
