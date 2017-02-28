@@ -12,6 +12,7 @@ import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -176,7 +177,7 @@ public class PayPwdEditText extends RelativeLayout{
         }
     }
 
-	/**
+    /**
      * 清除文本框
      */
     public void clearText()
@@ -241,6 +242,24 @@ public class PayPwdEditText extends RelativeLayout{
     public interface OnTextFinishListener
     {
         void onFinish(String str);
+    }
+
+    public void setFocus()
+    {
+        editText.requestFocus();
+        editText.setFocusable(true);
+        showKeyBord(editText);
+    }
+
+    /**
+     * 显示键盘
+     * @param view
+     */
+    public void showKeyBord(View view)
+    {
+        InputMethodManager imm = (InputMethodManager) context.getSystemService(Context.INPUT_METHOD_SERVICE);
+        imm.showSoftInput(view,InputMethodManager.SHOW_FORCED);
+
     }
 
 }
