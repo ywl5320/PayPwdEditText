@@ -1,10 +1,10 @@
 # PayPwdEditText
-####支付密码框，和微信支付宝类似
-####博客地址：http://blog.csdn.net/ywl5320/article/details/52003691
-#####一、效果图：
+#### 支付密码框，和微信支付宝类似
+#### 博客地址：http://blog.csdn.net/ywl5320/article/details/52003691
+##### 一、效果图：
 ![image](https://github.com/wanliyang1990/PayPwdEditText/blob/master/imgs/pwd.gif)<br/>
-#####二、设置代码
-xml布局：<br/><br/>
+##### 二、设置代码
+### xml布局：<br/><br/>
 
     <com.ywl5320.widget.PayPwdEditText
         android:id="@+id/ppe_pwd"
@@ -14,7 +14,7 @@ xml布局：<br/><br/>
         android:layout_marginRight="13dp"
         android:layout_marginTop="5dp"/>
 
-java代码：<br/><br/>
+### java代码：<br/><br/>
 
     /**
      * @param bgdrawable 背景drawable
@@ -32,4 +32,4 @@ java代码：<br/><br/>
             }
         });
         
-create by ywl5320
+# create by ywl5320
