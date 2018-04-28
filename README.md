@@ -1,4 +1,5 @@
 # PayPwdEditText
+## [我的视频课程：《FFmpeg打造Android万能音频播放器》](https://edu.csdn.net/course/detail/6842)
 #### 支付密码框，和微信支付宝类似
 #### 博客地址：http://blog.csdn.net/ywl5320/article/details/52003691
 ##### 一、效果图：
